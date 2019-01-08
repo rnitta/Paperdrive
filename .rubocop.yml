@@ -1,0 +1,13 @@
+AllCops:
+  DisplayCopNames: true
+LineLength:
+  Enabled: false
+Layout/EmptyLineAfterMagicComment:
+  StyleGuide: '#separate-magic-comments-from-code'
+  Enabled: true
+Metrics/AbcSize:
+  Enabled: false
+Style/StructInheritance:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
