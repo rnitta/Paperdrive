@@ -20,7 +20,7 @@ module Paperdrive
 
     # build instances by<br>
     # using arguments: pass the token as `token:`<br>
-    # or using environment variables: set the token to `ENV['PAPERDRIVE_TOKEN']`
+    # or using environment variables: set the token to ENV['PAPERDRIVE_TOKEN']
     #
     # @param [String] token: Paperdrive API access token
     # @return [Paperdrive::Client] instance

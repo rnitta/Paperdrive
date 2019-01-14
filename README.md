@@ -14,11 +14,16 @@ gem 'paperdrive'
 $ bundle install
 ```
 
-Or install it to your global:
+---
+
+Or install it on your global:
 
 ```shell
 $ gem install paperdrive
 ```
+
+## Document
+[Yard doc](https://paperdrive-doc.netlify.com/)
 
 ## Usage
 
@@ -32,8 +37,33 @@ require 'paperdrive'
 client = Paperdrive::Client.new(token: 'your_token_here')
 # or setting token to ENV['PAPERDRIVE_TOKEN'] and you can initialize with `Paperdrive::Client.new`.
 
-client.all_activities(user_id: 1, limit: 1, done: 0)
-# => #<Paperdrive::Response>
+response = client.all_activities(user_id: 1, done: 1)
+# => #<Paperdrive::Response> 
+
+pp response
+# =>
+# #<Paperdrive::Response:0x00007ff811221b70
+# @body=
+#   {"success"=>true,
+#    "data"=>
+#      [{"id"=>0,
+#        "company_id"=>000000,
+#        "user_id"=>000000,
+#        "done"=>false,
+#        "type"=>"call",
+#        "reference_type"=>nil,
+#        "reference_id"=>nil,
+#        "due_date"=>"2019-01-08",
+#        "due_time"=>"",
+#        "duration"=>"",
+#        "add_time"=>"2019-01-08 20:28:31",
+#        "marked_as_done_time"=>"",
+#        "last_notification_time"=>nil,
+#        "last_notification_user_id"=>nil,
+#        "notification_language_id"=>nil,
+#        "subject"=>"Call",
+#        ...
+
 ```
 
 
