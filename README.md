@@ -33,24 +33,49 @@ client = Paperdrive::Client.new(token: 'your_token_here')
 # or setting token to ENV['PAPERDRIVE_TOKEN'] and you can initialize with `Paperdrive::Client.new`.
 
 client.all_activities(user_id: 1, limit: 1, done: 0)
-# => { :rate_limit => {...}, :header => {...}, body => {...} }
+# => #<Paperdrive::Response>
 ```
 
-Now This gem is supporting only ["Activities"](https://developers.pipedrive.com/docs/api/v1/#!/Activities),  
-But you can access other APIs with `Paperdrive::Client::General`
-
-like:
-
-```ruby
-# client.general_<get|post|put|delete> (path, *parameters)
-client.general_delete('/deals', ids: [1, 2, 3, 4]) # => DELETE multiple deals in builk
-```
-
-Actually, these methods enable you to access all APIs on [API docs](https://developers.pipedrive.com/docs/api/v1/).
 
 ## Development
 
 Now developing, and there are very few APIs supported, so I appreciate your help.
+
+
+### TODO
+Many apis still not wrapped
+
+- ~~Activities~~(implemented)
+- ActivityFields
+- ActivityTypes
+- Authorizations
+- Currencies
+- Deals
+- DealFields
+- Files
+- Filters
+- GlobalMessages
+- MailMessages
+- MailThreads
+- ~~Notes~~(implemented)
+- NoteFields
+- OrganizationFields
+- Organizations
+- OrganizationRelationships
+- PermissionSets
+- Persons
+- PersonFields
+- Pipelines
+- Products
+- ProductFields
+- Recents
+- Roles
+- SearchResults
+- Stages
+- Users
+- UserConnections
+- UserSettings
+- Webhooks
 
 ## Contributing
 

@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.authors       = %w[rnitta]
   spec.email         = ['attinyes@gmail.com']
 
-  spec.summary       = 'Unofficial Paperdrive API wrapper gem'
+  spec.summary       = 'Unofficial Pipedrive API wrapper gem'
   spec.description   = 'Unofficial Ruby wrapper for the Pipedrive API'
   spec.homepage      = 'https://github.com/rnitta/paperdrive'
   spec.license       = 'MIT'
@@ -22,9 +22,12 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = %w[lib]
 
-  spec.add_dependency 'http', '~> 3.0'
+  spec.add_dependency 'activesupport'
+  spec.add_dependency 'faraday', '~> 0.15.4'
+  spec.add_dependency 'faraday_middleware', '~> 0.12.2'
   spec.add_development_dependency 'bundler', '~> 1.16'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
   spec.add_development_dependency 'rubocop', '~> 0.62.0'
+  spec.add_development_dependency 'yard'
 end

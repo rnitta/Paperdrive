@@ -5,7 +5,7 @@ RSpec.describe Paperdrive do
     expect(Paperdrive::VERSION).not_to be nil
   end
 
-  it 'does something useful' do
-    expect(false).to eq(true)
+  it '1+1 = ?' do
+    expect(1 + 1).to eq(2)
   end
 end

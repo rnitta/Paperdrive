@@ -1,5 +1,6 @@
 AllCops:
   DisplayCopNames: true
+  TargetRubyVersion: 2.3
 LineLength:
   Enabled: false
 Layout/EmptyLineAfterMagicComment:
@@ -10,4 +11,8 @@ Metrics/AbcSize:
 Style/StructInheritance:
   Enabled: false
 Style/Documentation:
+  Enabled: false
+Style/RedundantFreeze:
+  Enabled: true
+Metrics:
   Enabled: false
