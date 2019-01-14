@@ -1,6 +1,7 @@
-# Paperdrive
+# Paperdrive ![](https://img.shields.io/travis/rnitta/Paperdrive/master.svg?style=popout-square) ![](https://img.shields.io/gem/v/Paperdrive.svg?style=popout-square)
 
-Paperdrive is the unofficial [Pipedrive](https://www.pipedrive.com/) API wrapper gem.
+Paperdrive is the unofficial [Pipedrive](https://www.pipedrive.com/) API wrapper gem.  
+
 
 ## Installation
 
