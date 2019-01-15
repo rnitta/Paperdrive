@@ -3,9 +3,13 @@ All notable changes to this project will be documented in this file.
 
 The format is maybe based on [Keep a Changelog](http://keepachangelog.com/)
 
-## [0.0.3] - 2019-01-XX
+## [0.0.4] - 2019-01-16
 ### Added
-- PaperDrive::Client::ActivityFields
+- add many PaperDrive::Client::XXXXs
+
+## [0.0.3] - 2019-01-15
+### Added
+- add many PaperDrive::Client::XXXXs
 
 ## [0.0.2] - 2019-01-15
 ### Added

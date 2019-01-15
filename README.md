@@ -24,7 +24,7 @@ $ gem install paperdrive
 ```
 
 ## Document
-[Yard doc](https://paperdrive-doc.netlify.com/)
+[YARD doc](https://paperdrive-doc.netlify.com/)
 
 ## Usage
 
@@ -65,16 +65,20 @@ pp response
 #        "subject"=>"Call",
 #        ...
 
+response.success? #=> true
+
 ```
+
+See `Paperdrive::Client` instance methods list [here (document)](https://paperdrive-doc.netlify.com/paperdrive/client)
 
 
 ## Development
 
-Now developing, and there are very few APIs supported, so I appreciate your help.
+Now developing, I appreciate your help.
 
 
 ### TODO
-Many apis still not wrapped
+There are few APIs (mainly related to uploading files) still not wrapped.
 
 - ~~Activities~~ (implemented)
 - ~~ActivityFields~~ (implemented)
@@ -94,19 +98,21 @@ Many apis still not wrapped
 - ~~Organizations~~ (implemented)
 - ~~OrganizationRelationships~~ (implemented)
 - ~~PermissionSets~~ (implemented)
-- ~~Persons~~ (implemented)
+- Persons (almost implemented)
 - ~~PersonFields~~ (implemented)
-- Pipelines
-- Products
-- ProductFields
-- Recents
-- Roles
-- SearchResults
-- Stages
+- ~~Pipelines~~ (implemented)
+- ~~Products~~ (implemented)
+- ~~ProductFields~~ (implemented)
+- ~~Recents~~ (implemented)
+- ~~Roles~~ (implemented)
+- ~~SearchResults~~ (implemented)
+- ~~Stages~~ (implemented)
 - ~~Users~~ (implemented)
 - ~~UserConnections~~ (implemented)
 - ~~UserSettings~~ (implemented)
-- Webhooks
+- ~~Webhooks~~ (implemented)
+
+- specs
 
 ## Contributing
 

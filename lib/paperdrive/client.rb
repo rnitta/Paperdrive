@@ -25,9 +25,17 @@ require 'paperdrive/client/organization_relationships'
 require 'paperdrive/client/permission_sets'
 require 'paperdrive/client/persons'
 require 'paperdrive/client/person_fields'
+require 'paperdrive/client/pipelines'
+require 'paperdrive/client/product_fields'
+require 'paperdrive/client/products'
+require 'paperdrive/client/recents'
+require 'paperdrive/client/roles'
+require 'paperdrive/client/search_results'
+require 'paperdrive/client/stages'
 require 'paperdrive/client/users'
 require 'paperdrive/client/user_connections'
 require 'paperdrive/client/user_settings'
+require 'paperdrive/client/webhooks'
 
 module Paperdrive
   # Client to aceess API
@@ -50,9 +58,17 @@ module Paperdrive
     include Paperdrive::Client::PermissionSets
     include Paperdrive::Client::Persons
     include Paperdrive::Client::PersonFields
+    include Paperdrive::Client::Pipelines
+    include Paperdrive::Client::ProductFields
+    include Paperdrive::Client::Products
+    include Paperdrive::Client::Recents
+    include Paperdrive::Client::Roles
+    include Paperdrive::Client::SearchResults
+    include Paperdrive::Client::Stages
     include Paperdrive::Client::Users
     include Paperdrive::Client::UserConnections
     include Paperdrive::Client::UserSettings
+    include Paperdrive::Client::Webhooks
 
     API_BASEURL = 'https://api.pipedrive.com/v1'
 
