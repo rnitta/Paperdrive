@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    Paperdrive (0.0.2)
+    Paperdrive (0.0.3)
       activesupport
       faraday (~> 0.15.4)
       faraday_middleware (~> 0.12.2)
