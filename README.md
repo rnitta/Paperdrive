@@ -76,26 +76,26 @@ Now developing, and there are very few APIs supported, so I appreciate your help
 ### TODO
 Many apis still not wrapped
 
-- ~~Activities~~(implemented)
-- ~~ActivityFields~~(implemented)
-- ~~ActivityTypes~~(implemented)
+- ~~Activities~~ (implemented)
+- ~~ActivityFields~~ (implemented)
+- ~~ActivityTypes~~ (implemented)
 - Authorizations
-- ~~Currencies~~(implemented)
-- ~~Deals~~(implemented)
-- ~~DealFields~~(implemented)
+- ~~Currencies~~ (implemented)
+- ~~Deals~~ (implemented)
+- ~~DealFields~~ (implemented)
 - Files
-- Filters
-- GlobalMessages
-- MailMessages
-- MailThreads
-- ~~Notes~~(implemented)
-- ~~NoteFields~~(implemented)
-- OrganizationFields
-- Organizations
-- OrganizationRelationships
-- PermissionSets
-- Persons
-- PersonFields
+- ~~Filters~~ (implemented)
+- ~~GlobalMessages~~ (implemented)
+- ~~MailMessages~~ (implemented)
+- ~~MailThreads~~ (implemented)
+- ~~Notes~~ (implemented)
+- ~~NoteFields~~ (implemented)
+- ~~OrganizationFields~~ (implemented)
+- ~~Organizations~~ (implemented)
+- ~~OrganizationRelationships~~ (implemented)
+- ~~PermissionSets~~ (implemented)
+- ~~Persons~~ (implemented)
+- ~~PersonFields~~ (implemented)
 - Pipelines
 - Products
 - ProductFields
@@ -103,9 +103,9 @@ Many apis still not wrapped
 - Roles
 - SearchResults
 - Stages
-- Users
-- UserConnections
-- UserSettings
+- ~~Users~~ (implemented)
+- ~~UserConnections~~ (implemented)
+- ~~UserSettings~~ (implemented)
 - Webhooks
 
 ## Contributing
