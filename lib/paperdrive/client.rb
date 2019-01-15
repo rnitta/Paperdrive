@@ -13,8 +13,21 @@ require 'paperdrive/client/activity_types'
 require 'paperdrive/client/currencies'
 require 'paperdrive/client/deals'
 require 'paperdrive/client/deal_fields'
+require 'paperdrive/client/filters'
+require 'paperdrive/client/global_messages'
+require 'paperdrive/client/mail_messages'
+require 'paperdrive/client/mail_threads'
 require 'paperdrive/client/notes'
 require 'paperdrive/client/note_fields'
+require 'paperdrive/client/organizations'
+require 'paperdrive/client/organization_fields'
+require 'paperdrive/client/organization_relationships'
+require 'paperdrive/client/permission_sets'
+require 'paperdrive/client/persons'
+require 'paperdrive/client/person_fields'
+require 'paperdrive/client/users'
+require 'paperdrive/client/user_connections'
+require 'paperdrive/client/user_settings'
 
 module Paperdrive
   # Client to aceess API
@@ -25,8 +38,21 @@ module Paperdrive
     include Paperdrive::Client::Currencies
     include Paperdrive::Client::Deals
     include Paperdrive::Client::DealFields
+    include Paperdrive::Client::Filters
+    include Paperdrive::Client::GlobalMessages
+    include Paperdrive::Client::MailMessages
+    include Paperdrive::Client::MailThreads
     include Paperdrive::Client::Notes
     include Paperdrive::Client::NoteFields
+    include Paperdrive::Client::Organizations
+    include Paperdrive::Client::OrganizationFields
+    include Paperdrive::Client::OrganizationRelationships
+    include Paperdrive::Client::PermissionSets
+    include Paperdrive::Client::Persons
+    include Paperdrive::Client::PersonFields
+    include Paperdrive::Client::Users
+    include Paperdrive::Client::UserConnections
+    include Paperdrive::Client::UserSettings
 
     API_BASEURL = 'https://api.pipedrive.com/v1'
 
