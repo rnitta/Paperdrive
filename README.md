@@ -77,19 +77,19 @@ Now developing, and there are very few APIs supported, so I appreciate your help
 Many apis still not wrapped
 
 - ~~Activities~~(implemented)
-- ActivityFields
-- ActivityTypes
+- ~~ActivityFields~~(implemented)
+- ~~ActivityTypes~~(implemented)
 - Authorizations
-- Currencies
-- Deals
-- DealFields
+- ~~Currencies~~(implemented)
+- ~~Deals~~(implemented)
+- ~~DealFields~~(implemented)
 - Files
 - Filters
 - GlobalMessages
 - MailMessages
 - MailThreads
 - ~~Notes~~(implemented)
-- NoteFields
+- ~~NoteFields~~(implemented)
 - OrganizationFields
 - Organizations
 - OrganizationRelationships

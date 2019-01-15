@@ -19,6 +19,13 @@ module Paperdrive
       @status_phrase = response.reason_phrase
     end
 
+    # return whether the request was successfully processed or not
+    #
+    # @param [boolean]
+    def success?
+      !!@body['success']
+    end
+
     private
 
     # build Struct of rate limit information from Faraday::Utils::Headers

@@ -8,13 +8,25 @@ require 'paperdrive/error'
 require 'paperdrive/parameters'
 require 'paperdrive/response'
 require 'paperdrive/client/activities'
+require 'paperdrive/client/activity_fields'
+require 'paperdrive/client/activity_types'
+require 'paperdrive/client/currencies'
+require 'paperdrive/client/deals'
+require 'paperdrive/client/deal_fields'
 require 'paperdrive/client/notes'
+require 'paperdrive/client/note_fields'
 
 module Paperdrive
   # Client to aceess API
   class Client
     include Paperdrive::Client::Activities
+    include Paperdrive::Client::ActivityFields
+    include Paperdrive::Client::ActivityTypes
+    include Paperdrive::Client::Currencies
+    include Paperdrive::Client::Deals
+    include Paperdrive::Client::DealFields
     include Paperdrive::Client::Notes
+    include Paperdrive::Client::NoteFields
 
     API_BASEURL = 'https://api.pipedrive.com/v1'
 
