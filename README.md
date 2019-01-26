@@ -1,8 +1,8 @@
 # Paperdrive
 
 Paperdrive is the unofficial [Pipedrive](https://www.pipedrive.com/) API wrapper gem.  
-[![](https://img.shields.io/travis/rnitta/Paperdrive/master.svg?style=popout-square)](https://travis-ci.org/rnitta/Paperdrive)
-[![](https://img.shields.io/gem/v/Paperdrive.svg?style=popout-square)](https://rubygems.org/gems/Paperdrive)
+[![](https://img.shields.io/travis/rnitta/Paperdrive/master.svg?style=popout-square)](https://travis-ci.org/rnitta/paperdrive)
+[![](https://img.shields.io/gem/v/paperdrive.svg?style=popout-square)](https://rubygems.org/gems/paperdrive)
 
 ## Installation
 

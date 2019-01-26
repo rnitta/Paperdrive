@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 The format is maybe based on [Keep a Changelog](http://keepachangelog.com/)
 
+## [0.0.6] - 2019-01-26
+### Fixed
+- Minor bug
+
+
 ## [0.0.5] - 2019-01-26
 ### Changed
 - changed the gem name from 'Paperdrive' to 'paperdrive'.
