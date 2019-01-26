@@ -9,7 +9,7 @@ Paperdrive is the unofficial [Pipedrive](https://www.pipedrive.com/) API wrapper
 Add this line to your application's Gemfile (Recommended):
 
 ```ruby
-gem 'Paperdrive'
+gem 'paperdrive'
 ```
 
 ```shell
@@ -21,7 +21,7 @@ $ bundle install
 Or install it on your global:
 
 ```shell
-$ gem install Paperdrive
+$ gem install paperdrive
 ```
 
 ## Document

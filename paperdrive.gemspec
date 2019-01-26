@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'paperdrive/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'Paperdrive'
+  spec.name          = 'paperdrive'
   spec.version       = Paperdrive::VERSION
   spec.authors       = %w[rnitta]
   spec.email         = ['attinyes@gmail.com']
