@@ -4,6 +4,8 @@ Paperdrive is the unofficial [Pipedrive](https://www.pipedrive.com/) API wrapper
 [![](https://img.shields.io/travis/rnitta/Paperdrive/master.svg?style=popout-square)](https://travis-ci.org/rnitta/paperdrive)
 [![](https://img.shields.io/gem/v/paperdrive.svg?style=popout-square)](https://rubygems.org/gems/paperdrive)
 
+One day, when I was a kid, I was exploring an old disused outhouse. After a short time search, I found an old computer, which is coated with dust. As I was cleaning it with care, suddenly a ghost did appear from the computer. According to the ghost's statement, He was a programmer in his time, Heian period. And then he said, "You should develop a Pipedrive API wrapper library for Ruby." This is why I developed this.
+
 ## Installation
 
 Add this line to your application's Gemfile (Recommended):
