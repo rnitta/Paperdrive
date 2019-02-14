@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    paperdrive (0.0.6)
+    paperdrive (0.0.7)
       activesupport
       faraday (~> 0.15.4)
       faraday_middleware (~> 0.12.2)
@@ -72,4 +72,4 @@ DEPENDENCIES
   yard
 
 BUNDLED WITH
-   1.16.1
+   1.16.4

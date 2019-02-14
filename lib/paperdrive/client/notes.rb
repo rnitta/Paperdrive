@@ -51,13 +51,15 @@ module Paperdrive
       # @param [integer] id: ID of the note to update
       # @see https://developers.pipedrive.com/docs/api/v1/#!/Notes/put_notes_id
       # @return [Paperdrive::Response]
-      def edit_note(id:, **args)
+      def update_note(id:, **args)
         params = parameters(args) do
           required_params :content
           optional_params :content, :deal_id, :person_id, :org_id, :add_time, :pinned_to_deal_flag, :pinned_to_organization_flag, :pinned_to_person_flag
         end
         request(:put, "notes/#{id}", params)
       end
+
+      alias_method :edit_note, :update_note
 
       # [DELETE] delete a single note
       #

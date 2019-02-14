@@ -54,12 +54,14 @@ module Paperdrive
       # @param [integer] id: ID of the actibity to update
       # @see https://developers.pipedrive.com/docs/api/v1/#!/Activities/put_activities_id
       # @return [Paperdrive::Response]
-      def edit_activity(id:, **args)
+      def update_activity(id:, **args)
         params = parameters(args) do
           optional_params :subject, :type, :done, :due_date, :due_time, :duration, :user_id, :deal_id, :person_id, :participants, :org_id, :note
         end
         request(:put, "activities/#{id}", params)
       end
+
+      alias_method :update_activity, :update_activity
 
       # [DELETE] delete multiple activities
       #

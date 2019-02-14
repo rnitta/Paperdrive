@@ -9,3 +9,5 @@ RSpec.describe Paperdrive do
     expect(1 + 1).to eq(2)
   end
 end
+
+# I appreciate those who stub API and add specs....

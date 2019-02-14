@@ -39,12 +39,14 @@ module Paperdrive
       # @param [integer] id: ID of the activity type to update
       # @see https://developers.pipedrive.com/docs/api/v1/#!/ActivityTypes/put_activityTypes_id
       # @return [Paperdrive::Response]
-      def edit_activity_type(id:, **args)
+      def update_activity_type(id:, **args)
         params = parameters(args) do
           optional_params :name, :icon_key, :color, :order_nr
         end
         request(:put, "activityTypes/#{id}", params)
       end
+
+      alias_method :edit_activity_type, :update_activity_type
 
       # [DELETE] delete multiple activity types
       #
