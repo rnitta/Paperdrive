@@ -1,9 +1,8 @@
 sudo: false
 language: ruby
 rvm:
-  - 2.6.0
-  - 2.5.0
-  - 2.4.3
-  - 2.3.4
+  - 2.6.5
+  - 2.5.7
+  - 2.4.9
 before_install: gem install bundler
 script: bundle exec rake spec
